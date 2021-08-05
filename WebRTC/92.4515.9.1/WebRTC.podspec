@@ -5,12 +5,13 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                    WebRTC library for WebRTC SFU Sora
                    DESC
-  s.homepage     = "https://github.com/shiguredo/shiguredo-webrtc-ios"
+  s.homepage     = "https://github.com/soudegesu/webrtc-build"
   s.license      = { :type => "BSD" }
   s.authors      = { "WebRTC" => "http://www.webrtc.org",
-                     "Shiguredo Inc." => "https://shiguredo.jp/" }
+                     "Shiguredo Inc." => "https://shiguredo.jp/",
+                     "soudegesu" => "" }
   s.platform     = :ios, "10.0"
-  s.source       = { :http => "https://github.com/shiguredo/sora-ios-sdk-specs/releases/download/#{s.name}-#{s.version}/WebRTC.framework.zip" }
+  s.source       = { :http => "https://github.com/soudegesu/sora-ios-sdk-specs/releases/download/#{s.name}-#{s.version}/WebRTC.framework.zip" }
   s.source_files  = "WebRTC.framework/Headers/*.h"
   s.vendored_frameworks = "WebRTC.framework"
 end
