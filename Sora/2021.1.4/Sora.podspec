@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/soudegesu/sora-ios-sdk"
   s.license      = { :type => "Apache License, Version 2.0" }
   s.authors      = { "Shiguredo Inc." => "https://shiguredo.jp/", "soudegesu" => "" }
-  s.platform     = :ios, "11.0"
+  s.platform     = :ios, "12.0"
   s.source       = {
       :git => "https://github.com/soudegesu/sora-ios-sdk.git",
       :tag => s.version
